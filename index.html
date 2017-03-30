@@ -10,6 +10,12 @@
     Electron <script>document.write(process.versions.electron)</script>을 사용합니다.
 </head>
 <body>
-    
+    <a href="#" id="drag"></a>
+    <script>
+        document.getElementById('drag').ondragstart = (event) => {
+            event.preventDefault()
+            ipcRenderder.send('ondragstart','/path/to/item')
+        }
+    </script>
 </body>
 </html></doc!>

@@ -1,5 +1,9 @@
 {
-    "name": "eletron_start",
-    "version": "0.1.0",
-    "main": "main.js"
+  "name": "eletron_start",
+  "version": "0.1.0",
+  "main": "main.js",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-google": "^0.7.1"
+  }
 }
