@@ -17,5 +17,9 @@
             ipcRenderder.send('ondragstart','/path/to/item')
         }
     </script>
+    <script>
+        const {app} = require('electron').remote
+        console.log(app.getVersion())
+    </script>
 </body>
 </html></doc!>

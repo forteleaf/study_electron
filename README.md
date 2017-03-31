@@ -145,6 +145,10 @@ ipcMain.on('ondragstart', (event, filePath) => {
 - electron-mocha
 - devtron
 
+## electron GUI
+
+- http://photonkit.com/components/
+
 ## boilerplate Projects
 
 - electron-boilerplate
@@ -155,7 +159,7 @@ ipcMain.on('ondragstart', (event, filePath) => {
 - clipboard
 - crash-reporter
 
-# recomand Editor
+# Recommend Editor
 
 ## Atom
 ```
@@ -186,3 +190,7 @@ apm install editorconfig es6-javascript atom-ternjs javascript-snippets linter l
 - Editorconfig
 - ESLint
 - Babel Syntax Plugin
+
+# npm --save or npm --save-dev
+
+\--save-dev 옵션은 ./package.json 업데이트를 같이해준다. 어디에 패키지 정보를 추가하느냐가 다른데, --save 옵션은 dependencies object에 추가하고 --save-dev 옵션은 devDepenencies object에 추가한다.
