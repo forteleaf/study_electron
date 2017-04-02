@@ -14,6 +14,7 @@ app.on('ondragstart', (event, filePath) => {
     })
 })
 
+
 function createWindow() {
     // make new browser
     win = new BrowserWindow({
