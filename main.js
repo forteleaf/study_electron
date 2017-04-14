@@ -13,19 +13,6 @@ app.on('ondragstart', (event, filePath) => {
         icon: '/path/to/button.png'
     })
 })
-it('should pass a selected value to the onChange handler', () => {
-    const value = '2';
-    const onChange = jest.fn();
-    const wrapper = shallow(
-        <Select items={ITEMS} onChange={onChange} />
-    );
-    expect(wrapper).toMatchSnapshot();
-        wrapper.find('select').simulate('change', {
-        target: { value },
-    });
-    expect(onChange).toBeCalledWith(value);
-});
-
 function createWindow() {
     // make new browser
     win = new BrowserWindow({

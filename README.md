@@ -134,7 +134,7 @@ ipcMain.on('ondragstart', (event, filePath) => {
 - Nylas N1 (이메일)
 - Speak(화상채팅 프로그램)
 - Jibo (family social robot)
-- [기타 유용한 프로그램들](https://github.com/sindresorhus/awesome-electron)
+- ***[기타 유용한 프로그램들](https://github.com/sindresorhus/awesome-electron)
 
 ## recommend tools
 
@@ -146,7 +146,7 @@ ipcMain.on('ondragstart', (event, filePath) => {
 - devtron
 
 ## electron GUI
-
+;
 - http://photonkit.com/components/
 
 ## boilerplate Projects
